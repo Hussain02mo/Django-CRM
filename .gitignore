@@ -79,3 +79,5 @@ openapi.json
 TODO.md
 .playwright-mcp
 .superpowers/
+
+backend/local.sqlite3

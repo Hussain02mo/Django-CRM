@@ -1,3 +1,7 @@
+> **Customized from [MicroPyramid/Django-CRM](https://github.com/MicroPyramid/Django-CRM)** (MIT License).
+>
+> **My changes:**
+> - Redesigned the UI theme from orange to indigo with slate neutrals (light and dark mode)
 # BottleCRM: CRM for AI and People
 
 A free, open-source, self-hosted, multi-tenant CRM built with Django REST Framework, SvelteKit and Flutter.

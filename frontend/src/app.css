@@ -6,7 +6,7 @@
 
 /* ═══════════════════════════════════════════════════════════════════════════
    BOTTLECRM DESIGN SYSTEM - Orange Primary
-   A modern CRM design system with warm orange accents and professional styling
+   A modern CRM design system with indigo accents and professional styling
    Based on DESIGN_SYSTEM.md v1.2
    ═══════════════════════════════════════════════════════════════════════════ */
 
@@ -17,16 +17,16 @@
   /* ─────────────────────────────────────────────────────────────────────────
      BRAND COLORS
      ───────────────────────────────────────────────────────────────────────── */
-  --color-brand-primary: #ea580c;
+  --color-brand-primary: #4f46e5;
   --color-brand-dark: #404346;
   --color-brand-white: #ffffff;
 
   /* ─────────────────────────────────────────────────────────────────────────
-     LIGHT MODE - Clean, professional with warm orange accents
+     LIGHT MODE - Clean, professional with indigo accents
      ───────────────────────────────────────────────────────────────────────── */
 
   /* Core surfaces */
-  --background: oklch(0.985 0.002 60);
+  --background: oklch(0.985 0.002 255);
   --foreground: oklch(0.15 0.02 260);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.15 0.02 260);
@@ -34,45 +34,45 @@
   --popover-foreground: oklch(0.15 0.02 260);
 
   /* Primary - Orange */
-  --primary: oklch(0.58 0.2 30);
+  --primary: oklch(0.51 0.23 277);
   --primary-foreground: oklch(0.98 0 0);
 
   /* Secondary */
-  --secondary: oklch(0.96 0.01 60);
+  --secondary: oklch(0.96 0.01 255);
   --secondary-foreground: oklch(0.25 0.02 260);
 
   /* Muted */
-  --muted: oklch(0.96 0.005 60);
+  --muted: oklch(0.96 0.005 255);
   --muted-foreground: oklch(0.45 0.02 260);
 
   /* Accent - Light orange tint */
-  --accent: oklch(0.98 0.02 60);
-  --accent-foreground: oklch(0.25 0.05 30);
+  --accent: oklch(0.98 0.02 255);
+  --accent-foreground: oklch(0.25 0.05 277);
 
   /* Destructive */
   --destructive: oklch(0.55 0.22 25);
 
   /* Borders & inputs */
-  --border: oklch(0.91 0.005 60);
-  --input: oklch(0.91 0.005 60);
-  --ring: oklch(0.58 0.2 30);
+  --border: oklch(0.91 0.005 255);
+  --input: oklch(0.91 0.005 255);
+  --ring: oklch(0.51 0.23 277);
 
   /* Chart colors - Sequential (Orange-based) */
-  --chart-1: #ea580c;
-  --chart-2: #f97316;
-  --chart-3: #fb923c;
-  --chart-4: #fdba74;
-  --chart-5: #fed7aa;
+  --chart-1: #4f46e5;
+  --chart-2: #6366f1;
+  --chart-3: #818cf8;
+  --chart-4: #a5b4fc;
+  --chart-5: #c7d2fe;
 
   /* Sidebar */
   --sidebar: oklch(1 0 0);
   --sidebar-foreground: #111827;
-  --sidebar-primary: #ea580c;
+  --sidebar-primary: #4f46e5;
   --sidebar-primary-foreground: oklch(0.995 0 0);
   --sidebar-accent: oklch(0.96 0 0);
   --sidebar-accent-foreground: #111827;
   --sidebar-border: oklch(0.94 0 0);
-  --sidebar-ring: #ea580c;
+  --sidebar-ring: #4f46e5;
   --sidebar-active-fill: oklch(0.94 0 0);
   --sidebar-muted: #4b5563;
   --sidebar-subtle: #9ca3af;
@@ -80,11 +80,11 @@
   /* ─────────────────────────────────────────────────────────────────────────
      PRIMARY COLOR SCALE
      ───────────────────────────────────────────────────────────────────────── */
-  --color-primary-default: #ea580c;
-  --color-primary-hover: #c2410c;
-  --color-primary-dark: #c2410c;
-  --color-primary-active: #9a3412;
-  --color-primary-light: #fff7ed;
+  --color-primary-default: #4f46e5;
+  --color-primary-hover: #4338ca;
+  --color-primary-dark: #4338ca;
+  --color-primary-active: #3730a3;
+  --color-primary-light: #eef2ff;
 
   /* ─────────────────────────────────────────────────────────────────────────
      SEMANTIC COLORS
@@ -139,7 +139,7 @@
   --text-tertiary: #9ca3af;
   --text-disabled: #bdbdbd;
   --text-inverse: #ffffff;
-  --text-link: #ea580c;
+  --text-link: #4f46e5;
   --text-error: #dc3545;
 
   /* ─────────────────────────────────────────────────────────────────────────
@@ -148,14 +148,14 @@
   --border-default: #e0e0e0;
   --border-subtle: #eeeeee;
   --border-strong: #bdbdbd;
-  --border-focus: #ea580c;
+  --border-focus: #4f46e5;
   --border-error: #dc3545;
 
   /* ─────────────────────────────────────────────────────────────────────────
      PIPELINE STAGE COLORS
      ───────────────────────────────────────────────────────────────────────── */
-  --stage-new: #ea580c;
-  --stage-contacted: #f97316;
+  --stage-new: #4f46e5;
+  --stage-contacted: #6366f1;
   --stage-qualified: #3b82f6;
   --stage-proposal: #8b5cf6;
   --stage-negotiation: #f59e0b;
@@ -163,8 +163,8 @@
   --stage-lost: #ef4444;
 
   /* Pipeline Stage Backgrounds */
-  --stage-new-bg: #fff7ed;
-  --stage-contacted-bg: #ffedd5;
+  --stage-new-bg: #eef2ff;
+  --stage-contacted-bg: #e0e7ff;
   --stage-qualified-bg: #eff6ff;
   --stage-proposal-bg: #f5f3ff;
   --stage-negotiation-bg: #fffbeb;
@@ -232,7 +232,7 @@
   /* ─────────────────────────────────────────────────────────────────────────
      CHARTS - CATEGORICAL
      ───────────────────────────────────────────────────────────────────────── */
-  --cat-1: #ea580c;
+  --cat-1: #4f46e5;
   --cat-2: #3b82f6;
   --cat-3: #22c55e;
   --cat-4: #8b5cf6;
@@ -242,7 +242,7 @@
   /* ─────────────────────────────────────────────────────────────────────────
      PROGRESS BAR
      ───────────────────────────────────────────────────────────────────────── */
-  --progress-default: #ea580c;
+  --progress-default: #4f46e5;
   --progress-success: #22c55e;
   --progress-warning: #f59e0b;
   --progress-danger: #ef4444;
@@ -398,9 +398,9 @@
   --bg-subtle: #f5f5f5;
   --bg-muted: #eeeeee;
   --bg-emphasis: #e0e0e0;
-  --accent-primary: #ea580c;
-  --accent-primary-hover: #c2410c;
-  --accent-primary-subtle: #fff7ed;
+  --accent-primary: #4f46e5;
+  --accent-primary-hover: #4338ca;
+  --accent-primary-subtle: #eef2ff;
   --accent-secondary: #f59e0b;
   --accent-secondary-hover: #d97706;
   --accent-secondary-subtle: #fffbeb;
@@ -425,7 +425,7 @@
   --bg-page: #fafafa;
   --bg-card: #ffffff;
   --bg-elevated: #fafafa;
-  --bg-hover: #f5f5f4;
+  --bg-hover: #f1f5f9;
   --bg-active: #f0efed;
   --bg-input: #ffffff;
 
@@ -453,7 +453,7 @@
   --amber-soft-text: #92400e;
   --red: #dc2626;
   --red-soft: rgba(220, 38, 38, 0.08);
-  --orange: #ea580c;
+  --orange: #4f46e5;
 
   /* CTA */
   --cta-bg: #111111;
@@ -480,24 +480,24 @@
 
 .dark {
   /* Core surfaces - Deep with subtle warmth */
-  --background: oklch(0.12 0.01 30);
-  --foreground: oklch(0.95 0.005 60);
-  --card: oklch(0.16 0.01 30);
-  --card-foreground: oklch(0.95 0.005 60);
-  --popover: oklch(0.18 0.012 30);
-  --popover-foreground: oklch(0.95 0.005 60);
+  --background: oklch(0.12 0.01 265);
+  --foreground: oklch(0.95 0.005 255);
+  --card: oklch(0.16 0.01 265);
+  --card-foreground: oklch(0.95 0.005 255);
+  --popover: oklch(0.18 0.012 265);
+  --popover-foreground: oklch(0.95 0.005 255);
 
   /* Primary - Vivid orange */
   --primary: oklch(0.72 0.18 35);
-  --primary-foreground: oklch(0.12 0.01 30);
+  --primary-foreground: oklch(0.12 0.01 265);
 
   /* Secondary */
-  --secondary: oklch(0.22 0.01 30);
-  --secondary-foreground: oklch(0.92 0.005 60);
+  --secondary: oklch(0.22 0.01 265);
+  --secondary-foreground: oklch(0.92 0.005 255);
 
   /* Muted */
-  --muted: oklch(0.22 0.008 30);
-  --muted-foreground: oklch(0.65 0.01 60);
+  --muted: oklch(0.22 0.008 265);
+  --muted-foreground: oklch(0.65 0.01 255);
 
   /* Accent - Warm orange glow */
   --accent: oklch(0.25 0.04 35);
@@ -507,35 +507,35 @@
   --destructive: oklch(0.65 0.2 25);
 
   /* Borders & inputs */
-  --border: oklch(0.28 0.01 30);
-  --input: oklch(0.24 0.01 30);
+  --border: oklch(0.28 0.01 265);
+  --input: oklch(0.24 0.01 265);
   --ring: oklch(0.7 0.16 35);
 
   /* Chart colors - Vibrant */
-  --chart-1: #fb923c;
-  --chart-2: #fdba74;
-  --chart-3: #fed7aa;
-  --chart-4: #ffedd5;
-  --chart-5: #fff7ed;
+  --chart-1: #818cf8;
+  --chart-2: #a5b4fc;
+  --chart-3: #c7d2fe;
+  --chart-4: #e0e7ff;
+  --chart-5: #eef2ff;
 
   /* Sidebar */
   --sidebar: oklch(0.14 0 0);
   --sidebar-foreground: rgba(255, 255, 255, 0.95);
-  --sidebar-primary: #fb923c;
-  --sidebar-primary-foreground: oklch(0.12 0.01 30);
+  --sidebar-primary: #818cf8;
+  --sidebar-primary-foreground: oklch(0.12 0.01 265);
   --sidebar-accent: rgba(255, 255, 255, 0.06);
   --sidebar-accent-foreground: rgba(255, 255, 255, 0.95);
   --sidebar-border: rgba(255, 255, 255, 0.08);
-  --sidebar-ring: #fb923c;
+  --sidebar-ring: #818cf8;
   --sidebar-active-fill: rgba(255, 255, 255, 0.1);
   --sidebar-muted: #9ca3af;
   --sidebar-subtle: #6b7280;
 
   /* Primary color scale - Dark mode */
-  --color-primary-default: #fb923c;
-  --color-primary-hover: #fdba74;
-  --color-primary-dark: #f97316;
-  --color-primary-active: #f97316;
+  --color-primary-default: #818cf8;
+  --color-primary-hover: #a5b4fc;
+  --color-primary-dark: #6366f1;
+  --color-primary-active: #6366f1;
   --color-primary-light: #431407;
 
   /* Surface Colors - Dark mode */
@@ -550,14 +550,14 @@
   --text-tertiary: #6b7280;
   --text-disabled: #525252;
   --text-inverse: #212121;
-  --text-link: #fb923c;
+  --text-link: #818cf8;
   --text-error: #f87171;
 
   /* Border Colors - Dark mode */
   --border-default: #3d3d3d;
   --border-subtle: #2a2a2a;
   --border-strong: #525252;
-  --border-focus: #fb923c;
+  --border-focus: #818cf8;
   --border-error: #f87171;
 
   /* Background Layers - Dark */
@@ -567,8 +567,8 @@
   --bg-emphasis: #1f222b;
 
   /* Accent Colors - Orange glow */
-  --accent-primary: #fb923c;
-  --accent-primary-hover: #fdba74;
+  --accent-primary: #818cf8;
+  --accent-primary-hover: #a5b4fc;
   --accent-primary-subtle: rgba(251, 146, 60, 0.1);
   --accent-secondary: #fbbf24;
   --accent-secondary-hover: #f59e0b;
@@ -610,7 +610,7 @@
   --color-grey-900: #fafafa;
 
   /* Stage Colors - Lighter variants for dark mode */
-  --stage-new-bg: rgba(234, 88, 12, 0.15);
+  --stage-new-bg: rgba(79, 70, 229, 0.15);
   --stage-contacted-bg: rgba(249, 115, 22, 0.15);
   --stage-qualified-bg: rgba(59, 130, 246, 0.15);
   --stage-proposal-bg: rgba(139, 92, 246, 0.15);
@@ -673,7 +673,7 @@
   --amber-soft-text: #fcd34d;
   --red: #f87171;
   --red-soft: rgba(248, 113, 113, 0.1);
-  --orange: #ea580c;
+  --orange: #4f46e5;
 
   /* CTA (inverted) */
   --cta-bg: #ffffff;
